@@ -1,0 +1,10 @@
+-- CreateTable
+CREATE TABLE "Shoe" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" DATETIME NOT NULL,
+    "name" TEXT NOT NULL,
+    "brand" TEXT NOT NULL,
+    "qty" INTEGER NOT NULL,
+    "available" BOOLEAN NOT NULL
+);
